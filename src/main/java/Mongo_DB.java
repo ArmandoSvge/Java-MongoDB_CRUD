@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Mongo_DB {
     public static void main(String[] args) {
         try {
-            String url = "mongodb+srv://armandoingomez:Infor2022@cluster0.ros6e82.mongodb.net/?retryWrites=true&w=majority";
+            String url = "";
             String database = "Pokemon";
             Scanner scanner = new Scanner(System.in);
             Conexion conexion = new Conexion();
