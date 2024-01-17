@@ -3,7 +3,7 @@ import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoDatabase;
 
 public class Conexion {
-   private String url="mongodb+srv://armandoingomez:Infor2022@cluster0.ros6e82.mongodb.net/?retryWrites=true&w=majority";
+   private String url="";
     private  String database= "Pokemon";
     private MongoClient client;
     public MongoDatabase connect (String url, String nombreBD){
